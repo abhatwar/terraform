@@ -10,7 +10,7 @@ provider "aws" {
     region = var.aws_region
 }
 
-resource "aws_instanace" "devops_server"{
+resource "aws_instance" "devops_server"{
     ami = var.ami_id
     instance_type = var.instance_type
 
