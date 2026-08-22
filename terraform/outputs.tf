@@ -1,5 +1,5 @@
 output "instance_id"{
-    value =aws_instance.devops_server.instance_id
+    value =aws_instance.devops_server.id
 }
 
 output "public_ip"{
